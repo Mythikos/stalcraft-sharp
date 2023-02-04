@@ -30,4 +30,4 @@ OAuthTokens tokens = null;
 tokens = await oAuthClient.GetAuthorizationTokensAsync(<code>); // This will return your access token, refresh token, and an expiration time. 
 ```
 
-And that's it. A full working demo written for WinForms can be found in this repository and should be pretty straight forward to port to other .NET applications.
+And that's it.
